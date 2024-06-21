@@ -1,0 +1,11 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon>
+		<tabs>
+			<tab idMso="TabTask">
+				<group id="CustomGroup" label="Custom Group">
+					<button id="ProcessTasksButton" label="Process Tasks" onAction="OnProcessTasksButtonClick" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
